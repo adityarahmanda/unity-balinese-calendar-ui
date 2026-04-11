@@ -73,5 +73,9 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
-Assets/GoogleCalendarCredentials/Google.Apis.Auth.OAuth2.Responses.TokenResponse-user
-Assets/GoogleCalendarCredentials/Google.Apis.Auth.OAuth2.Responses.TokenResponse-user.meta
+/[Aa]ssets/GoogleCalendarCredentials/Google.Apis.Auth.OAuth2.Responses.TokenResponse-user
+/[Aa]ssets/GoogleCalendarCredentials/Google.Apis.Auth.OAuth2.Responses.TokenResponse-user.meta
+
+# Package samples
+/[Pp]ackages/com.adityarahmanda.balinese-calendar-ui/Samples/*.unitypackage
+/[Pp]ackages/com.adityarahmanda.balinese-calendar-ui/Samples/*.unitypackage.meta

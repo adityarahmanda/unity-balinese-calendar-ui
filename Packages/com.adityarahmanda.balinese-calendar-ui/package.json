@@ -1,6 +1,6 @@
 {
   "name": "com.adityarahmanda.balinese-calendar-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Aditya Rahmanda",
     "email": "adityarahmanda.workspace@gmail.com"
@@ -11,5 +11,12 @@
   "dependencies": {
     "com.adityarahmanda.balinese-date": "1.1.1",
     "com.adityarahmanda.calendar-ui": "1.0.0"
-  }
+  },
+  "samples": [
+    {
+      "displayName": "Balinese Date Sample",
+      "description": "An example scene demonstrating the use of the Balinese Calendar UI package.",
+      "path": "Samples"
+    }
+  ]
 }

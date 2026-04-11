@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Packages/com.adityarahmanda.balinese-calendar-ui/Scenes/BalineseCalendar.unity
+    path: Assets/Balinese Calendar UI/BalineseCalendar.unity
     guid: 3e87b801abdb60541b1218cb12a5d86a
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

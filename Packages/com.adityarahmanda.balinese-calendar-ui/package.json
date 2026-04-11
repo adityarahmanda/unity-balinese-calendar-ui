@@ -3,8 +3,8 @@
   "version": "1.0.2",
   "author": {
     "name": "Aditya Rahmanda",
-    "email": "adityarahmanda.workspace@gmail.com",
-    "url": "https://adityarahmanda.github.io"
+    "url": "https://adityarahmanda.github.io",
+    "email": "adityarahmanda.workspace@gmail.com"
   },
   "documentationUrl": "https://github.com/adityarahmanda/unity-balinese-calendar-ui",
   "changelogUrl": "https://github.com/adityarahmanda/unity-balinese-calendar-ui/commits/master",
@@ -24,7 +24,7 @@
   ],
   "dependencies": {
     "com.adityarahmanda.balinese-date": "1.1.1",
-    "com.adityarahmanda.calendar-ui": "1.0.1"
+    "com.adityarahmanda.calendar-ui": "1.0.4"
   },
   "samples": [
     {

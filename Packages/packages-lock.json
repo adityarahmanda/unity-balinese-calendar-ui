@@ -6,7 +6,7 @@
       "source": "embedded",
       "dependencies": {
         "com.adityarahmanda.balinese-date": "1.1.1",
-        "com.adityarahmanda.calendar-ui": "1.0.1"
+        "com.adityarahmanda.calendar-ui": "1.0.4"
       }
     },
     "com.adityarahmanda.balinese-date": {
@@ -19,7 +19,7 @@
       "url": "https://package.openupm.com"
     },
     "com.adityarahmanda.calendar-ui": {
-      "version": "1.0.1",
+      "version": "1.0.4",
       "depth": 1,
       "source": "registry",
       "dependencies": {},

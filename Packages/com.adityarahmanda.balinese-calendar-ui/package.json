@@ -1,0 +1,15 @@
+{
+  "name": "com.adityarahmanda.balinese-calendar-ui",
+  "version": "1.0.0",
+  "author": {
+    "name": "Aditya Rahmanda",
+    "email": "adityarahmanda.workspace@gmail.com"
+  },
+  "documentationUrl": "https://github.com/adityarahmanda/unity-calendar-ui",
+  "displayName": "Balinese Calendar UI",
+  "description": "An implementation of the Calendar UI package tailored for the Balinese calendar.",
+  "dependencies": {
+    "com.adityarahmanda.balinese-date": "1.1.1",
+    "com.adityarahmanda.calendar-ui": "1.0.0"
+  }
+}

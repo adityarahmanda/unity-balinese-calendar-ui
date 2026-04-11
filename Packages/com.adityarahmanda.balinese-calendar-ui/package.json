@@ -1,20 +1,34 @@
 {
   "name": "com.adityarahmanda.balinese-calendar-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Aditya Rahmanda",
-    "email": "adityarahmanda.workspace@gmail.com"
+    "email": "adityarahmanda.workspace@gmail.com",
+    "url": "https://adityarahmanda.github.io"
   },
-  "documentationUrl": "https://github.com/adityarahmanda/unity-calendar-ui",
+  "documentationUrl": "https://github.com/adityarahmanda/unity-balinese-calendar-ui",
+  "changelogUrl": "https://github.com/adityarahmanda/unity-balinese-calendar-ui/commits/master",
+  "licensesUrl": "https://github.com/adityarahmanda/unity-balinese-calendar-ui/blob/master/LICENSE",
   "displayName": "Balinese Calendar UI",
   "description": "An implementation of the Calendar UI package tailored for the Balinese calendar.",
+  "keywords": [
+    "balinese",
+    "calendar",
+    "balinese-calendar",
+    "saka-calendar",
+    "google-calendar",
+    "gui",
+    "ui",
+    "tool",
+    "utility"
+  ],
   "dependencies": {
     "com.adityarahmanda.balinese-date": "1.1.1",
-    "com.adityarahmanda.calendar-ui": "1.0.0"
+    "com.adityarahmanda.calendar-ui": "1.0.1"
   },
   "samples": [
     {
-      "displayName": "Balinese Date Sample",
+      "displayName": "Balinese Calendar UI Sample",
       "description": "An example scene demonstrating the use of the Balinese Calendar UI package.",
       "path": "Samples"
     }

@@ -8,8 +8,8 @@ An implementation of the Aditya Rahmanda's [Calendar UI](https://github.com/adit
 ![Calendar UI Preview](Documentation~/balinese-calendar-ui-sample.webp)
 
 ## Features
-- Gregorian Calendar Display - Shows Gregorian calendar year, month, day and holiday infomation views for date navigation.
-- Balinese Saka Calendar Display - Shows Balinese calendar year, sasih, sasih day, triwara, pancawara, pancawara + saptawara urip, ingkel and wuku views for date navigation.
+- Gregorian Calendar Display - Shows Gregorian calendar year, month, day and holiday infomation views.
+- Balinese Saka Calendar Display - Shows Balinese calendar daka year, sasih, sasih day, triwara, pancawara, pancawara + saptawara urip, ingkel and wuku views.
 
 ## Installation
 

@@ -1,5 +1,16 @@
 # Balinese Calendar UI (Unity Package)
 
+[![openupm](https://img.shields.io/npm/v/com.adityarahmanda.balinese-calendar-ui?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.adityarahmanda.balinese-calendar-ui/)
+
+## Summary
+An implementation of the Aditya Rahmanda's [Calendar UI](https://github.com/adityarahmanda/unity-calendar-ui) package tailored for the Balinese Saka calendar.
+
+![Calendar UI Preview](Documentation~/balinese-calendar-ui-sample.webp)
+
+## Features
+- Gregorian Calendar Display - Shows Gregorian calendar year, month, day and holiday infomation views for date navigation.
+- Balinese Saka Calendar Display - Shows Balinese calendar year, sasih, sasih day, triwara, pancawara, pancawara + saptawara urip, ingkel and wuku views for date navigation.
+
 ## Installation
 
 ### Install via Clone

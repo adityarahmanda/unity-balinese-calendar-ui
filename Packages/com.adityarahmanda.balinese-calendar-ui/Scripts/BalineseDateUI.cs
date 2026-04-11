@@ -11,7 +11,6 @@ namespace CalendarUI.Balinese
         [SerializeField] private GameObject currentDateIndicator;
         [SerializeField] private Color dateDefaultColor = Color.black;
         [SerializeField] private Color dateHolidayColor = Color.red;
-        [SerializeField] private Image backgroundImage;
         [SerializeField] private Button button;
         public override Button Button => button;
         
@@ -23,6 +22,7 @@ namespace CalendarUI.Balinese
         [SerializeField] private TextMeshProUGUI paringkelanText;
         [SerializeField] private TextMeshProUGUI wukuText;
         [SerializeField] private TextMeshProUGUI sasihText;
+        [SerializeField] private TextMeshProUGUI sasihDayText;
         
         private CalendarDayMode _calendarDayMode; 
         
@@ -46,24 +46,35 @@ namespace CalendarUI.Balinese
             paringkelanText.text = _balineseDate.ingkel.Name;
             wukuText.text = _balineseDate.wuku.Name;
             sasihText.text = _balineseDate.sasih.Name;
+            sasihDayText.text = string.Join("/", _balineseDate.sasihDay);
+            ColorUtility.TryParseHtmlString("#dfdfdf", out var disabledColor);
+            ColorUtility.TryParseHtmlString("#2f00ca", out var blueColor);
             
             if (_calendarDayMode == CalendarDayMode.Disabled)
             {
-                backgroundImage.color = Color.gray;
+                dateText.color = disabledColor;
+                triwaraText.color = disabledColor;
+                pancawaraText.color = disabledColor;
+                uripText.color = disabledColor;
+                paringkelanText.color = disabledColor;
+                wukuText.color = disabledColor;
+                sasihText.color = disabledColor;
+                sasihDayText.color = disabledColor;
                 button.interactable = false;
                 currentDateIndicator.SetActive(false);
             }
-            else if (_calendarDayMode == CalendarDayMode.Current)
-            {
-                backgroundImage.color = Color.white;
-                button.interactable = true;
-                currentDateIndicator.SetActive(true);
-            }
             else
             {
-                backgroundImage.color = Color.white;
+                dateText.color = isDayOff ? dateHolidayColor : dateDefaultColor;
+                triwaraText.color = blueColor;
+                pancawaraText.color = blueColor;
+                uripText.color = blueColor;
+                paringkelanText.color = blueColor;
+                wukuText.color = blueColor;
+                sasihText.color = blueColor;
+                sasihDayText.color = blueColor;
                 button.interactable = true;
-                currentDateIndicator.SetActive(false);
+                currentDateIndicator.SetActive(_calendarDayMode == CalendarDayMode.Current);
             }
         }
     }

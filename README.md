@@ -1,4 +1,4 @@
-# Balinese Calendar UI (Unity Package)
+# Balinese Calendar UI
 
 [![openupm](https://img.shields.io/npm/v/com.adityarahmanda.balinese-calendar-ui?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.adityarahmanda.balinese-calendar-ui/)
 
